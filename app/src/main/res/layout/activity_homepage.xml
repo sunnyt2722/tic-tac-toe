@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Player One's name"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="280dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Player's Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="318dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="18dp"
+        android:text="Enter Player Two's name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Player's Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="437dp" />
+
+</android.support.constraint.ConstraintLayout>
